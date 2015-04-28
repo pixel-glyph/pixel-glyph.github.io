@@ -179,6 +179,9 @@ PAGE: CONTACT
   background-image: url('../img/twitter.png');
 }
 
+#contact-details {
+  margin-top:50px;
+}
 
 /********************************
 COLORS
