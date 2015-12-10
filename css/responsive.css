@@ -19,14 +19,17 @@
   }
 
   /********************************
-  PAGE: PORTFOLIO
+  PAGE: PROJECTS -- TWO COLUMNS
   *********************************/
 
   #gallery li {
-    width: 27%;
+    margin: 4.5% 4.5%;
+    clear: none;
+    float: left;
+    width: 40%;
   }
 
-  #gallery li:nth-child(4n) {
+  #gallery li:nth-child(2n+3) {
     clear: left;
   }
 
@@ -93,3 +96,22 @@
 
 }
 
+@media screen and (min-width: 900px) {
+
+  /********************************
+  PAGE: PROJECTS -- THREE COLUMNS
+  *********************************/
+
+  #gallery li {
+    margin: 4.5% 2.5%;
+    width: 27%;
+  }
+
+  #gallery li:nth-child(2n+3) {
+    clear: none;
+  }
+
+  #gallery li:nth-child(3n+4) {
+    clear: left;
+  }
+}
