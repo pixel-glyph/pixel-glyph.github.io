@@ -37,8 +37,8 @@ header {
 }
 
 #logo {
- text-align: center;
- margin: 0;
+  text-align: center;
+  margin: 0;
 }
 
 h1 {
@@ -48,10 +48,15 @@ h1 {
   font-size: 1.75em;
   font-weight: normal;
   line-height: 0.8em;
+  transition: color 0.15s ease-in-out;
+}
+
+h1:hover {
+  color: #D4D4D4;
 }
 
 h2 {
-  font-size: 0.75em;
+  font-size: 0.95em;
   margin: -5px 0 0;
   font-weight: normal;
 }
@@ -80,8 +85,9 @@ nav li {
 
 nav a {
   font-size: 1.1em;
-  font-weight: 400;
+  font-weight: 700;
   padding: 15px 10px;
+  transition: color 0.15s ease-in-out
 }
 
 
@@ -196,7 +202,7 @@ body {
   color: #999;
 }
 
-/* green header*/
+/* header */
 header {
   background: #85A2AD;
   border-color: #599a68; /*#D6D6D6*/
@@ -207,7 +213,7 @@ nav {
   background-color: #5E7494;
 }
 
-/*logo text */
+/* logo text */
 h1, h2 {
  color: #fff;
 }
@@ -223,6 +229,10 @@ nav a, nav a:visited {
 }
 
 /* selected nav link */
-nav a.selected, nav a:hover {
+nav a.selected, nav a.selected:hover {
   color: #A0B8C1;
+}
+
+nav a:hover {
+  color: #D4D4D4;
 }
