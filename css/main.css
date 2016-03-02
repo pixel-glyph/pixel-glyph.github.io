@@ -100,13 +100,22 @@ footer {
   text-align: center;
   clear: both;
   padding-top: 100px;
-  color: #ccc;
+  color: #B0B0B0;
 }
 
-.social-icon {
-  width: 40px;
-  height: 40px;
+.fa {
   margin: 0 15px;
+  -webkit-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+#linkedin:hover {
+  color: #1B86BC;
+}
+
+#github:hover {
+  color: #333;
 }
 
 
