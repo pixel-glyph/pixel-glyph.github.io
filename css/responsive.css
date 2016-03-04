@@ -32,20 +32,58 @@
 @media screen and (min-width: 700px) {
 
   /********************************
-  HEADER
+  PROJECTS
   *********************************/
 
+  #projects {
+    margin-bottom: -150px;
+  }
+
+  #projects h1 {
+    font-size: 2em;
+    margin: 65px 0;
+  }
+
+  .project-title {
+    padding-left: 30px;
+  }
+
+  .project-text {
+    margin: 4em 0 8em;
+    font-size: 1em;
+  }
+
+  /********************************
+  FOOTER
+  *********************************/
+
+  footer {
+    padding-top: 175px;
+  }
+
+  .social-icon {
+    margin: 0 20px;
+  }
+
+}
+
+@media screen and (min-width: 900px) {
+
   header {
+    display: flex;
+    justify-content: space-between;
     height: 149px;
     margin-bottom: 60px;
     box-shadow: 0px 1px 3px 1px;
   }
 
   #logo {
-    float: left;
     margin-left: 5%;
     text-align: left;
-    width: 45%;
+  }
+
+  #name {
+    font-size: 2.5em;
   }
 
   h1 {
@@ -55,16 +93,14 @@
 
   h2 {
     margin-bottom: 20px;
+    padding: 6px 0 0 15px;
   }
 
   nav {
     background: none;
-    float: right;
+    margin: 37px 5% 0 0;
     font-size: 1.125em;
-    margin-top: 24px;
-    margin-right: 5%;
     text-align: right;
-    width: 45%;
   }
 
   nav a.selected, nav a.selected:hover {
@@ -75,17 +111,23 @@
     color: #D4D4D4;
   }
 
-  /********************************
-  FOOTER
-  *********************************/
 
-  .social-icon {
-    margin: 0 20px;
+  #projects {
+    margin: 120px auto -150px;
+  }
+
+  .project-img {
+    -webkit-box-shadow: -2px 2px 7px 1px rgba(44, 44, 44, 0.5);
+    box-shadow: -2px 2px 7px 1px rgba(44, 44, 44, 0.5);
   }
 
 }
 
-@media screen and (min-width: 900px) {
 
+@media screen and (min-width: 1200px) {
+
+  #name {
+    font-size: 3.2em;
+  }
 
 }

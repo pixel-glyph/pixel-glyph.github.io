@@ -14,6 +14,7 @@ body {
 }
 
 a {
+  font-weight: 700;
   text-decoration: none;
 }
 
@@ -47,9 +48,10 @@ header {
 
 #name {
   margin: 20px 0;
-  font-size: 2.5em;
-  font-weight: normal;
-  line-height: 0.8em;
+  font-size: 2.2em;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-shadow: -1px -1px 2px #6E6E6E;
   -webkit-transition: color 0.15s ease-in-out;
   -o-transition: color 0.15s ease-in-out;
   transition: color 0.15s ease-in-out;
@@ -89,7 +91,6 @@ nav li {
 
 nav a {
   font-size: 1.1em;
-  font-weight: 700;
   padding: 15px 10px;
   -webkit-transition: color 0.15s ease-in-out;
   -o-transition: color 0.15s ease-in-out;
@@ -98,14 +99,54 @@ nav a {
 
 
 /********************************
+PAGE: PORTFOLIO
+*********************************/
+
+#projects {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+#projects li {
+  width: 93%;
+  margin: 10% auto;
+}
+
+#projects h1 {
+  font-size: 1.4em;
+  color: #222;
+  margin: 70px 0 35px;
+}
+
+.project-text {
+  margin: 2em 0 0;
+  font-size: 0.9em;
+}
+
+.project-img {
+  width: 100%;
+  margin: auto;
+  -webkit-box-shadow: -1px 1px 4px 0px rgba(44, 44, 44, 0.5);
+  box-shadow: -1px 1px 4px 0px rgba(44, 44, 44, 0.5);
+}
+
+.project-img img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+
+/********************************
 FOOTER
 *********************************/
 
 footer {
+  margin: 0 0 75px;
   font-size: 0.75em;
   text-align: center;
   clear: both;
-  padding-top: 100px;
+  padding-top: 60px;
   color: #B0B0B0;
 }
 
@@ -123,47 +164,6 @@ footer {
 #github:hover {
   color: #333;
 }
-
-
-/********************************
-PAGE: PORTFOLIO
-*********************************/
-
-#projects {
-  margin: 0 auto;
-  padding: 0;
-  list-style: none;
-}
-
-#projects li {
-  width: 80%;
-  margin: 10% auto;
-}
-
-#projects h1 {
-  color: #222;
-  margin: 65px 0;
-}
-
-#projects p {
-  margin: 4em 0 8em;
-}
-
-.project-title {
-  padding-left: 30px;
-}
-
-.project-img {
-  width: 100%;
-  margin: auto;
-}
-
-.project-img img {
-  width: 100%;
-}
-
-
-
 
 
 /********************************
