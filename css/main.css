@@ -58,7 +58,7 @@ header {
 }
 
 h1:hover {
-  color: #D4D4D4;
+  color: #E0E0E0;
 }
 
 h2 {
@@ -175,6 +175,13 @@ PAGE ABOUT
   max-width: 150px;
   margin: 0 auto 30px;
   border-radius: 100%;
+  -webkit-box-shadow: -2px 2px 7px 1px rgba(91, 91, 91, 0.6);
+  box-shadow: -2px 2px 7px 1px rgba(91, 91, 91, 0.6);
+}
+
+.text-wrap {
+  max-width: 800px;
+  margin: auto;
 }
 
 
