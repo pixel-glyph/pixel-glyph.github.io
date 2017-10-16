@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <title>Andrew Jensen-Battaglia | Developer</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700|Droid+Serif:400' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -32,7 +31,25 @@
 
           <li>
             <div class="project-title">
-              <h1>The Village Gate Square</h1>
+              <h1>
+                <a href="https://build-jyrladzbqk.now.sh/" target="_blank">BetterReads</a>
+              </h1>
+            </div>
+            <div class="project-img">
+              <a href="https://build-jyrladzbqk.now.sh/" target="_blank">
+                <img src="img/better-reads.jpg" alt="App logo">
+              </a>
+            </div>
+            <div class="project-text">
+              <p>A prototype single-page application powered by React.js that leverages Google Books to seamlessly allow book searching and list creation</p>
+            </div>
+          </li>
+
+          <li>
+            <div class="project-title">
+              <h1>
+                <a href="http://pixel-glyph.github.io/VillageGate/public" target="_blank">The Village Gate Square</a>
+              </h1>
             </div>
             <div class="project-img">
               <a href="http://pixel-glyph.github.io/VillageGate/public" target="_blank">
@@ -40,17 +57,15 @@
               </a>
             </div>
             <div class="project-text">
-              <p>For a while now I’ve wanted to design a site for a local business sorely in need of a new one. While the Village Gate Square is more of an urban mall with a mix of residential units and commercial offices attached than it is a single business, I decided it to be an appropriate candidate for a <a href="http://www.villagegatesquare.com/" target="_blank">much needed </a>redesign, especially considering it serves as a hub for a number of hip new businesses and restaurants.</p>
-
-              <p>I wanted to make the home page a bit more flashy than the other pages on the site so it’s the one I’m showcasing here; a few others are currently being worked on.</p>
-
-              <p>For this project I used Jade, Sass, and a bit of JavaScript with jQuery for some parallax effects and scrolling events. Though I built the header to appear when scrolling up and hide when scrolling down, I realize that it’s probably not as ideal as a simple fixed header—but I was up for the challenge of creating it!</p>
+              <p>The homepage of a concept site for an urban mall in Rochester, NY</p>
             </div>
           </li>
 
           <li>
             <div class="project-title">
-              <h1>CommuteCast</h1>
+              <h1>
+                <a href="http://pixel-glyph.github.io/CommuteCast" target="_blank">CommuteCast</a>
+              </h1>
             </div>
             <div class="project-img">
               <a href="http://pixel-glyph.github.io/CommuteCast" target="_blank">
@@ -58,39 +73,15 @@
               </a>
             </div>
             <div class="project-text">
-              <p>The idea for this app grew from the need to check weather in various towns whenever going on a road trip, especially in winter to avoid traveling through snow storms. Simply put, CommuteCast is a Google Maps canvas that functions much like Google Maps with the addition of weather reporting along any route and for whatever day the user inputs.</p>
-
-              <p>CommuteCast uses several Google Maps APIs to calculate and draw a route with a given start and destination and then grabs and stores latitude and longitude coordinates along appropriately-spaced intervals of the route, which are calculated based on the route’s total distance. These coordinates, along with the date the user selects, are sent to Forecast.io and the weather at each point is retrieved. Based on the data returned, CommuteCast will select from a pool of <a href="https://github.com/erikflowers/weather-icons" target="_blank">weather icons</a> I’ve included in the project and paint the appropriate depiction at each point on the map where the weather is being reported. Hovering over these icons will reveal the expected temperatures for that day as well as more info on weather conditions.</p>
-
-              <p>I built this app before getting into task runners, preprocessors, and other handy technologies such as Browserify (which explains the multiple script calls in the markup), but I’ve since moved on to leveraging more tools and structuring projects more efficiently.</p>
-
-              <p>I did, however, decide to try out Bootstrap on this app—mostly for the mobile dropdown menu, but also to get acquainted with the framework.</p>
+              <p>A Google Map canvas that plots weather forecasts along any inputted route, utilizing several Maps APIs and <a href="https://darksky.net/forecast/40.7143,-74.006/us12/en" target="_blank">Forecast.io</a></p>
             </div>
           </li>
 
           <li>
             <div class="project-title">
-              <h1>LitList</h1>
-            </div>
-            <div class="project-img">
-              <a href="http://pixel-glyph.github.io/LitList/public" target="_blank">
-                <img src="img/litlist.png" alt="App logo">
-              </a>
-            </div>
-            <div class="project-text">
-              <p>One of my favorite hobbies is reading: I have what many might call a harmless obsession with books. So, naturally, I built a reading list application.</p>
-
-              <p>This app presents the user with two lists, one for books they wish to read and one for books they’ve recently finished reading. Clicking the plus icon at the top of the “To Read” list brings up a modal where the user can perform a search. The app uses Google Books for the search, retrieving a thumbnail image of the book’s cover as well as covers of other books by the same author for the user to choose from. Once a selection is made, the chosen thumbnail along with the proper title and author are grabbed and written to the list. Currently the app utilizes the browser’s local storage to save a user’s created lists.</p>
-
-              <p>LitList is simple—perhaps a bit too simple. But that’s because it’s far from a complete app. Future plans include a redesign and additional functionality such as drag-and-drop list sorting and user profile creation that allows for note taking, goal setting, and progress tracking.</p>
-
-              <p>LitList is one of my earlier web projects. I wrote it using good old HTML, CSS, and JavaScript—no tools whatsoever (if I don’t count jQuery). Some time after the initial build, I went back and refactored some of the code and incorporated the build system I currently use.</p>
-            </div>
-          </li>
-
-          <li>
-            <div class="project-title">
-              <h1>Simple Calc</h1>
+              <h1>
+                <a href="http://pixel-glyph.github.io/SimpleCalc/app/" target="_blank">Calculator</a>
+              </h1>
             </div>
             <div class="project-img calc">
               <a href="http://pixel-glyph.github.io/SimpleCalc/app/" target="_blank">
@@ -98,9 +89,7 @@
               </a>
             </div>
             <div class="project-text">
-              <p>In development, knowing the fundamentals is crucial, and it’s a good idea to have at least one project that demonstrates a solid understanding of the basics. Although this app is rather straightforward—a calculator for basic arithmetic—I built it without the aid of any JS libraries or frameworks. It’s easy these days to rely too heavily on the many tools and technologies built around JavaScript; by doing so one can quickly forget the underlying concepts.</p>
-
-              <p>I would like to point out that since the creation of this app, my understanding of JavaScript has deepened: my code tends to be cleaner, more functional, and includes several ES6 features and capabilities.</p>
+              <p>A simple calculator that runs in the browser</p>
 
             </div>
           </li>
@@ -111,7 +100,7 @@
       <footer>
         <a href="https://www.linkedin.com/in/ajensenbattaglia" id="linkedin"><i class="fa fa-linkedin-square fa-4x"></i></a>
         <a href="https://github.com/pixel-glyph" id="github"><i class="fa fa-github-square fa-4x"></i></a>
-        <p>&copy; 2016 Andrew Jensen-Battaglia</p>
+        <p>&copy; 2017 Andrew Jensen-Battaglia</p>
       </footer>
     </div>
   </body>

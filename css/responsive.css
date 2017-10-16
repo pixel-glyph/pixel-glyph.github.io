@@ -41,11 +41,7 @@
 
   #projects h1 {
     font-size: 2em;
-    margin: 65px 0;
-  }
-
-  .project-title {
-    padding-left: 30px;
+    margin: 65px 0 40px;
   }
 
   .project-text {
@@ -122,8 +118,7 @@
   }
 
   .project-text {
-    max-width: 750px;
-    margin: 64px 0 0 4%;
+    margin: 64px 0 0;
   }
 
 }
